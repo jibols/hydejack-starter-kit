@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: "Targeting Wake County restaurants for better sanitation"
+title: "Testing testing 1 2"
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
