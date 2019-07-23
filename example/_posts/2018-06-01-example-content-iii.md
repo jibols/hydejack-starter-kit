@@ -8,7 +8,7 @@ title: "Testing testing 1 2"
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Using restaurant data to target "at-risk" restaurants for a mailing campaign with the goal of encouraging better practices in advance of their next inspection. 
+  XXXXXXX dfguhrihfrfr hofghgfihgifgign. 
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
