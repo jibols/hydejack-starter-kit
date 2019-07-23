@@ -1,4 +1,4 @@
 ---
-layout: cats
+layout: page
 title: Categories
 ---
