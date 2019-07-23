@@ -8,11 +8,11 @@ title: "Visualizing the English Premiership over the last decade"
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  XXXXXXX dfguhrihfrfr hofghgfihgifgign. 
+  Using EPL data to visualize Arsenal FCs performance over the last decade. 
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: /assets/img/restaurants/header.JPG
+image: assets/img/epl/PL-Lion.png
 
 # You can hide the description and/or image from the output
 # (only visible to search engines) by setting:
