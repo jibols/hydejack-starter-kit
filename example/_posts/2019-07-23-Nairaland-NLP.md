@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Example Content II
+title: Natural Language Processing
 description: >
   Natural Language Processing using data scraped from Nairaland(Nigeria's Largest Online Forum).
-image: /assets/img/blog/example-content-ii.jpg
+image: /assets/img/nairaland/images-2.jpg
 noindex: true
 ---
 
