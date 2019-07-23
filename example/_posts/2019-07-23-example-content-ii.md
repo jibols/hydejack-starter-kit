@@ -2,7 +2,7 @@
 layout: post
 title: Example Content II
 description: >
-  A page showing how regular markdown content is styled in Hydejack.
+  Natural Language Processing using data scraped from Nairaland(Nigeria's Largest Online Forum).
 image: /assets/img/blog/example-content-ii.jpg
 noindex: true
 ---
