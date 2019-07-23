@@ -104,12 +104,12 @@ defaults:
       path: about.md
     values:
       menu: true
-      order: 1
+      order: 2
   - scope:
       path: cats.md
     values:
       menu: true
-      order: 2
+      order: 1
   - scope:
       path: archive.md
     values:
