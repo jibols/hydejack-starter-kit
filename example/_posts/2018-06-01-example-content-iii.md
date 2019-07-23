@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: "Testing testing 1 2"
+title: "Visualizing the English Premiership over the last decade"
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -47,7 +47,7 @@ including information like `INSPECTDATE`, `INSPECTOR`, and `SCORE`.
 <br>`Violations` details the violations detected in each restaurant inspection. Most inspections have multiple entries
 in `violations`, including information like `CATEGORY`, `SEVERITY`, and `COMMENTS`.
 
-<br>All datasets were pulled on 7/3/19.
+<br>All datasets are updated as of today.
 
 ## Cleaning
 Our first task is reading the data from the url and wikipedia
@@ -148,12 +148,8 @@ At the very end, we'll see how our best model would have performed if we actuall
 For both the train and test sets, we need inputs from what we know about each restaurant.
 
 Features will include:
-* the number of days the restaurant has been open (`TIMEOPEN`, integer)
-* the number of days since the restaurant was last inspected (`TIMESINCE`, integer)
-* the number of other restaurants (unique HSISIDs) with the same name (`CHAINCOUNT`, integer)
-* the number of inspections for the restaurant (`INSPCOUNT`, integer)
-* whether the restaurant has ever needed a re-inspection (`WASREINSP`, binary)
-* the average number of violations per inspection for that restaurant (`AVGVIOL`, float)
+* xxxx
+* xxxxxxx
 
 <br>
 
