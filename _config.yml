@@ -101,21 +101,20 @@ defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
-      type:            projects
+      path: about.md
     values:
-      seo:
-        type:          WebPage
+      menu: true
+      order: 1
   - scope:
-      type:            featured_categories
+      path: cats.md
     values:
-      seo:
-        type:          WebPage
+      menu: true
+      order: 2
   - scope:
-      type:            featured_tags
+      path: archive.md
     values:
-      seo:
-        type:          WebPage
-
+      menu: true
+      order: 3
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
