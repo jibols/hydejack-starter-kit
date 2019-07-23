@@ -31,18 +31,10 @@ languages: [Python]
 {:toc}
 
 # Background
-Wake County provides [open data](https://data-wake.opendata.arcgis.com/) for the public to analyze, including
-data on restaurant inspections. 
-I've been meaning to use an open dataset for a while, and decided to start by inventing a prediction problem that would leverage
-their open data about restaurants and restaurant inspections in Wake County.
+Xxxxx xxxxxbbxxx xxxx
 
 # Scenario
-At the end of 2018, the Wake County health department decides to implement a mailing campaign to increase
-awareness of food handling best practices, with the goal of decreasing the number of "at-risk" restaurants (those
-receiving an inspection score < 93). 
-
-Wake County can only send 500 mailers, and wants to use data science to successfully target as many "at-risk"
-restaurants in advance of their inspection as possible.
+xxxkc xxxxx xxxxxxx
 
 # Dataset
 We have 3 tables to work with, courtesy of Wake County Open Data:
@@ -58,16 +50,18 @@ in `violations`, including information like `CATEGORY`, `SEVERITY`, and `COMMENT
 <br>All datasets were pulled on 7/3/19.
 
 ## Cleaning
-Our first task is inspecting the datasets and tidying them up a bit.
+Our first task is reading the data from the url and wikipedia
 ```python
-rest = pd.read_csv('./data/Restaurants_in_Wake_County.csv', index_col=['OBJECTID'],
-                  parse_dates=['RESTAURANTOPENDATE'], infer_datetime_format=True)
-
-insp = pd.read_csv('./data/Food_Inspections.csv', index_col=['OBJECTID'],
-                  parse_dates=['DATE_'], infer_datetime_format=True)
-
-viol = pd.read_csv('./data/Food_Inspection_Violations.csv',
-                  parse_dates=['INSPECTDATE'], infer_datetime_format=True, low_memory=False)
+season_one = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-0910.csv", parse_dates=['Date'])
+season_two = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1011.csv", parse_dates=['Date'])   
+season_three = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1112.csv", parse_dates=['Date'])
+season_four = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1213.csv", parse_dates=['Date']) 
+season_five = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1314.csv", parse_dates=['Date'])
+season_six = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1415.csv", parse_dates=['Date'])
+season_seven = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1516.csv", parse_dates=['Date']) 
+season_eight = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1617.csv", parse_dates=['Date'])
+season_nine = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1718.csv", parse_dates=['Date'])   
+season_ten = pd.read_csv("https://datahub.io/sports-data/english-premier-league/r/season-1819.csv", parse_dates=['Date'])
 ```
 
 Looking at `restaurants`:
